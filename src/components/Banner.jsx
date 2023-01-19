@@ -30,7 +30,7 @@ const Banner = () => {
                           starting at &dollar; <b>20</b>.00
                         </p>
 
-                        <a href="#" className="banner-btn">Shop now</a>
+                        <a href="/" className="banner-btn">Shop now</a>
 
                       </div>
 
@@ -50,7 +50,7 @@ const Banner = () => {
                           starting at &dollar; <b>15</b>.00
                         </p>
 
-                        <a href="#" className="banner-btn">Shop now</a>
+                        <a href="/" className="banner-btn">Shop now</a>
 
                       </div>
 
@@ -70,7 +70,7 @@ const Banner = () => {
                           starting at &dollar; <b>29</b>.99
                         </p>
 
-                        <a href="#" className="banner-btn">Shop now</a>
+                        <a href="/" className="banner-btn">Shop now</a>
 
                       </div>
 

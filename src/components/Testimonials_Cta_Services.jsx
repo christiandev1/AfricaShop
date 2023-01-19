@@ -47,7 +47,7 @@ const TestimonialsAndServices = () => {
 
                 <img src={cta_banner} alt="summer collection" className="cta-banner" />
 
-                <a href="#" className="cta-content">
+                <a href="/" className="cta-content">
 
                   <p className="discount">25% Discount</p>
 
@@ -71,7 +71,7 @@ const TestimonialsAndServices = () => {
 
                 <div className="service-container">
 
-                  <a href="#" className="service-item">
+                  <a href="/" className="service-item">
 
                     <div className="service-icon">
                       <ion-icon name="boat-outline"></ion-icon>
@@ -86,7 +86,7 @@ const TestimonialsAndServices = () => {
 
                   </a>
 
-                  <a href="#" className="service-item">
+                  <a href="/" className="service-item">
                   
                     <div className="service-icon">
                       <ion-icon name="rocket-outline"></ion-icon>
@@ -101,7 +101,7 @@ const TestimonialsAndServices = () => {
                   
                   </a>
 
-                  <a href="#" className="service-item">
+                  <a href="/" className="service-item">
                   
                     <div className="service-icon">
                       <ion-icon name="call-outline"></ion-icon>
@@ -116,7 +116,7 @@ const TestimonialsAndServices = () => {
                   
                   </a>
 
-                  <a href="#" className="service-item">
+                  <a href="/" className="service-item">
                   
                     <div className="service-icon">
                       <ion-icon name="arrow-undo-outline"></ion-icon>
@@ -131,7 +131,7 @@ const TestimonialsAndServices = () => {
                   
                   </a>
 
-                  <a href="#" className="service-item">
+                  <a href="/" className="service-item">
                   
                     <div className="service-icon">
                       <ion-icon name="ticket-outline"></ion-icon>

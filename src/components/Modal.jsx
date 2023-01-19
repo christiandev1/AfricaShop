@@ -24,7 +24,7 @@ const Modal = () => {
 
                 <div className="newsletter">
 
-                  <form action="#">
+                  <form action="/">
 
                     <div className="newsletter-header">
 

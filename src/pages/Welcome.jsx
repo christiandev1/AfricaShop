@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonHTML } from '../components/Button';
+
 import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
 import Banner from '../components/Banner';
