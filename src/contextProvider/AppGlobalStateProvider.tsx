@@ -45,19 +45,21 @@ const AppGlobalStateProvider: React.FC<ProviderProps> = ({children}) => {
         is_connected: false,
         isExist: false
     })
-    
-    const loadOfLocalStorage = async() => {
-        localStorage.getItem("globalState")
-        const result = JSON.parse(localStorage.getItem("globalState") || '{}')
-        SetGlobalState({
-            ...globalState, 
-            ...result,
-            visitorInfo: {
-                ...result.visitorInfo,
-                isLoad: true
-            }
-        })
-    }
+    const temp = {...globalState}
+        SetGlobalState(temp)
+
+    // const loadOfLocalStorage = async() => {
+    //     localStorage.getItem("globalState")
+    //     const result = JSON.parse(localStorage.getItem("globalState") || '{}')
+    //     SetGlobalState({
+    //         ...globalState, 
+    //         ...result,
+    //         visitorInfo: {
+    //             ...result.visitorInfo,
+    //             isLoad: true
+    //         }
+    //     })
+    // }
     // const saveInLocalStorage = async (ell) => {
     //     delete ell["formData"]
     //     return await localStorage.setItem("globalState", JSON.stringify(ell))
@@ -82,19 +84,19 @@ const AppGlobalStateProvider: React.FC<ProviderProps> = ({children}) => {
     // }
     
 
-    const saveSignedFile= (formData: FormData) =>{
-        let temp =  {} as TglobalState
-        if(globalState.formData===undefined){
-            temp = {...globalState, formData: formData}
-        }else{
-            const cerfa =  Object.fromEntries(formData).cerfa
-            const formData2 = globalState.formData
-            formData2.append('cerfa', cerfa)
-            temp = {...globalState, formData: formData2}
-        }
-        SetGlobalState(temp)
-        //saveInLocalStorage(temp)
-    }
+    // const saveSignedFile= (formData: FormData) =>{
+    //     let temp =  {} as TglobalState
+    //     if(globalState.formData===undefined){
+    //         temp = {...globalState, formData: formData}
+    //     }else{
+    //         const cerfa =  Object.fromEntries(formData).cerfa
+    //         const formData2 = globalState.formData
+    //         formData2.append('cerfa', cerfa)
+    //         temp = {...globalState, formData: formData2}
+    //     }
+    //     SetGlobalState(temp)
+    //     //saveInLocalStorage(temp)
+    // }
     // const saveFile= (formData) =>{
 
     //     const temp = {...globalState, formData: formData}
