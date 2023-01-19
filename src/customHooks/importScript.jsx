@@ -13,10 +13,11 @@ import { useEffect } from 'react';
 // };
 
 const ImportScriptJS = resourceUrl=> {
-  let firstLoading = true;
+  
 
   useEffect(() => {
     //'use strict';
+    let firstLoading = true;
     
     if( firstLoading === false )
       return;
