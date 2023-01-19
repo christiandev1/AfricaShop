@@ -4,7 +4,7 @@ import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
 import Banner from '../components/Banner';
 import Category from '../components/Category';
-import Product from '../components/Product';
+import Products from '../components/Product';
 import Blog from '../components/Blog';
 import Testimonials from '../components/Testimonials_Cta_Services';
 import NotificationToast from '../components/NotificationToast';
@@ -56,7 +56,7 @@ const Welcome = () => {
               <Category />
 
               {/* <!--- PRODUCT --> */}
-              <Product />
+              <Products />
 
               {/* <!--- TESTIMONIALS, CTA & SERVICE  --> */}
               <Testimonials />

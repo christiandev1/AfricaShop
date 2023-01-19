@@ -1,5 +1,4 @@
 import React from 'react';
-import {IonIcon} from "react-ion-icon";
 
 import testimonial1 from '../assets/images/testimonial-1.jpg';
 import quotes from '../assets/images/icons/quotes.svg';

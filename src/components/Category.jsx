@@ -1,5 +1,4 @@
 import React from 'react';
-import {IonIcon} from "react-ion-icon";
 
 import dressIcon from '../assets/images/icons/dress.svg';
 import coatIcon from '../assets/images/icons/coat.svg';

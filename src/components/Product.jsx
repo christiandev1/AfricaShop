@@ -1,5 +1,4 @@
 import React from 'react';
-import {IonIcon} from "react-ion-icon";
 
 import dressIcon from '../assets/images/icons/dress.svg';
 import shoesIcon from '../assets/images/icons/shoes.svg';
@@ -49,7 +48,7 @@ import perfume from '../assets/images/products/perfume.jpg';
 import belt from '../assets/images/products/belt.jpg';
 import shampoo from '../assets/images/products/shampoo.jpg';
 
-const Caategory = () => {
+const Products = () => {
     return (
         <div>
             
@@ -2023,4 +2022,4 @@ const Caategory = () => {
     )
 }
 
-export default Caategory;
+export default Products;
