@@ -45,8 +45,8 @@ const AppGlobalStateProvider: React.FC<ProviderProps> = ({children}) => {
         is_connected: false,
         isExist: false
     })
-    const temp = {...globalState}
-        SetGlobalState(temp)
+    // const temp = {...globalState}
+    //     SetGlobalState(temp)
 
     // const loadOfLocalStorage = async() => {
     //     localStorage.getItem("globalState")
