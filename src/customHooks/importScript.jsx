@@ -13,14 +13,14 @@ import { useEffect } from 'react';
 // };
 
 const ImportScriptJS = resourceUrl=> {
-  
+  let firstLoading = true;
+
   useEffect(() => {
     //'use strict';
-    let firstLoading = true;
-
+    
     if( firstLoading === false )
       return;
-      
+  
     // modal variables
     const modal = document.querySelector('[data-modal]');
     const modalCloseBtn = document.querySelector('[data-modal-close]');

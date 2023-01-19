@@ -1,0 +1,71 @@
+{
+    "title" : "Deal of the day",
+    "content" : 
+        [
+            {
+                "title" : "shampoo, conditioner & facewash packs",
+                "desc" : "Lorem ipsum dolor sit amet consectetur Lorem ipsum \n dolor dolor sit amet consectetur Lorem ipsum dolor",
+                "category" : "Clothes",
+                "rate_value" : "3",
+                "price" : "$150.00",
+                "del_price" : "$200.00",
+                "sold": "20",
+                "available": "40",
+                "countdown" : {
+                    "desc" : "Hurry Up! Offer ends in:",
+                    "content": [
+                        {
+                            "number" : "360",
+                            "text" : "Days"
+                        },
+                        {
+                            "number" : "24",
+                            "text" : "Hours"
+                        },
+                        {
+                            "number" : "59",
+                            "text" : "Min"
+                        },
+                        {
+                            "number" : "00",
+                            "text" : "Sec"
+                        }
+                    ]
+                },
+                "imageId" : "shampoo"
+            },
+            
+            {
+                "title" : "Rose Gold diamonds Earring",
+                "desc" : "Lorem ipsum dolor sit amet consectetur Lorem ipsum \n dolor dolor sit amet consectetur Lorem ipsum dolor",
+                "category" : "Clothes",
+                "rate_value" : "3",
+                "price" : "$1990.00",
+                "del_price" : "$2000.00",
+                "sold": "15",
+                "available": "40",
+                "countdown" : {
+                    "desc" : "Hurry Up! Offer ends in:",
+                    "content": [
+                        {
+                            "number" : "360",
+                            "text" : "Days"
+                        },
+                        {
+                            "number" : "24",
+                            "text" : "Hours"
+                        },
+                        {
+                            "number" : "59",
+                            "text" : "Min"
+                        },
+                        {
+                            "number" : "00",
+                            "text" : "Sec"
+                        }
+                    ]
+                },
+                "imageId" : "jewellery1"
+            }
+        ]
+}

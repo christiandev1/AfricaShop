@@ -1,0 +1,121 @@
+{
+    "title" : "New Products",
+    "content" :[
+                    {
+                        "title" : "Mens Winter Leathers Jackets",
+                        "category" : "jacket",
+                        "rate_value" : "3",
+                        "price" : "$48.00",
+                        "del_price" : "$75.00",
+                        "discount": "15",
+                        "imageId_default" : "jacket3",
+                        "imageId_hover" : "jacket4"
+                    },
+                    {
+                        "title" : "Pure Garment Dyed Cotton Shirt",
+                        "category" : "shirt",
+                        "rate_value" : "3",
+                        "price" : "$45.00",
+                        "del_price" : "$56.00",
+                        "sale": 1,
+                        "imageId_default" : "shirt1",
+                        "imageId_hover" : "shirt2"
+                    },
+                    {
+                        "title" : "MEN Yarn Fleece Full-Zip Jacke",
+                        "category" : "Jacket",
+                        "rate_value" : "3",
+                        "price" : "$58.00",
+                        "del_price" : "$65.00",
+                        "imageId_default" : "jacket5",
+                        "imageId_hover" : "jacket6"
+                    },
+                    {
+                        "title" : "Black Floral Wrap Midi Skirt",
+                        "category" : "skirt",
+                        "rate_value" : "5",
+                        "price" : "$25.00",
+                        "del_price" : "$35.00",
+                        "new" : 1,
+                        "imageId_default" : "clothes3",
+                        "imageId_hover" : "clothes4"
+                    },
+                    {
+                        "title" : "Casual Men's Brown shoes",
+                        "category" : "casual",
+                        "rate_value" : "5",
+                        "price" : "$99.00",
+                        "del_price" : "$105.00",
+                        "imageId_default" : "shoe2",
+                        "imageId_hover" : "shoe2_1"
+                    },
+                    {
+                        "title" : "Pocket Watch Leather Pouch",
+                        "category" : "watches",
+                        "rate_value" : "3",
+                        "price" : "$150.00",
+                        "del_price" : "$170.00",
+                        "sale": 1,
+                        "imageId_default" : "watch3",
+                        "imageId_hover" : "watch4"
+                    },
+                    {
+                        "title" : "Smart watche Vital Plus",
+                        "category" : "watches",
+                        "rate_value" : "4",
+                        "price" : "$100.00",
+                        "del_price" : "$120.00",
+                        "imageId_default" : "watch1",
+                        "imageId_hover" : "watch2"
+                    },
+                    {
+                        "title" : "Womens Party Wear Shoes",
+                        "category" : "party wear",
+                        "rate_value" : "3",
+                        "price" : "$25.00",
+                        "del_price" : "$30.00",
+                        "sale": 1,
+                        "imageId_default" : "partywear1",
+                        "imageId_hover" : "partywear2"
+                    },
+                    {
+                        "title" : "Mens Winter Leathers Jackets",
+                        "category" : "jacket",
+                        "rate_value" : "4",
+                        "price" : "$32.00",
+                        "del_price" : "$45.00",
+                        "imageId_default" : "jacket1",
+                        "imageId_hover" : "jacket2"
+                    },
+                    {
+                        "title" : "Trekking & Running Shoes - black",
+                        "category" : "sports",
+                        "rate_value" : "3",
+                        "price" : "$58.00",
+                        "del_price" : "$64.00",
+                        "sale": 1,
+                        "imageId_default" : "sports2",
+                        "imageId_hover" : "sports4"
+                    },
+                    {
+                        "title" : "Men's Leather Formal Wear shoes",
+                        "category" : "formal",
+                        "rate_value" : "4",
+                        "price" : "$50.00",
+                        "del_price" : "$65.00",
+                        "imageId_default" : "shoe1",
+                        "imageId_hover" : "shoe1_1"
+                    },
+                    {
+                        "title" : "Better Basics French Terry Sweatshorts",
+                        "category" : "shorts",
+                        "rate_value" : "3",
+                        "price" : "$78.00",
+                        "del_price" : "$85.00",
+                        "sale": 1,
+                        "imageId_default" : "shorts1",
+                        "imageId_hover" : "shorts2"
+                    }
+                ]
+
+}

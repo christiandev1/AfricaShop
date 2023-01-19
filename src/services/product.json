@@ -1,0 +1,200 @@
+{
+    "ProductShowCase1" : {
+        "title" : "New Arrivals",
+        "content" :{
+                        "Item1":[
+                                    {
+                                        "title" : "Relaxed Short full Sleeve T-Shirt",
+                                        "category" : "Clothes",
+                                        "price" : "$45.00",
+                                        "del_price" : "$12.00",
+                                        "imageId" : "clothes1"
+                                    },
+                                    {
+                                        "title" : "Girls pink Embro design Top",
+                                        "category" : "Clothes",
+                                        "price" : "$61.00",
+                                        "del_price" : "$9.00",
+                                        "imageId" : "clothes2"
+                                    },
+                                    {
+                                        "title" : "Black Floral Wrap Midi Skirt",
+                                        "category" : "Clothes",
+                                        "price" : "$76.00",
+                                        "del_price" : "$25.00",
+                                        "imageId" : "clothes3"
+                                    },
+                                    {
+                                        "title" : "Pure Garment Dyed Cotton Shirt",
+                                        "category" : "Mens Fashion",
+                                        "price" : "$68.00",
+                                        "del_price" : "$31.00",
+                                        "imageId" : "shirt1"
+                                    }
+                                ],
+
+                        "Item2":[
+                                    {
+                                        "title" : "MEN Yarn Fleece Full-Zip Jacket",
+                                        "category" : "Winter wear",
+                                        "price" : "$61.00",
+                                        "del_price" : "$11.00",
+                                        "imageId" : "jacket5"
+                                    },
+                                    {
+                                        "title" : "Mens Winter Leathers Jackets",
+                                        "category" : "Winter wear",
+                                        "price" : "$32.00",
+                                        "del_price" : "$20.00",
+                                        "imageId" : "jacket1"
+                                    },
+                                    {
+                                        "title" : "Mens Winter Leathers Jackets",
+                                        "category" : "Jackets",
+                                        "price" : "$50.00",
+                                        "del_price" : "$25.00",
+                                        "imageId" : "jacket3"
+                                    },
+                                    {
+                                        "title" : "Better Basics French Terry Sweatshorts",
+                                        "category" : "Shorts",
+                                        "price" : "$20.00",
+                                        "del_price" : "$10.00",
+                                        "imageId" : "shorts1"
+                                    }
+                                ]
+                    }
+    },
+
+    "ProductShowCase2" : {
+        "title" : "Trending",
+        "content" : {
+                        "Item1":[
+                            {
+                                "title" : "Running & Trekking Shoes - White",
+                                "category" : "Sports",
+                                "price" : "$49.00",
+                                "del_price" : "$15.00",
+                                "imageId" : "sports1"
+                            },
+                            {
+                                "title" : "Trekking & Running Shoes - black",
+                                "category" : "Sports",
+                                "price" : "$78.00",
+                                "del_price" : "$36.00",
+                                "imageId" : "sports2"
+                            },
+                            {
+                                "title" : "Womens Party Wear Shoes",
+                                "category" : "Party wear",
+                                "price" : "$94.00",
+                                "del_price" : "$42.00",
+                                "imageId" : "partywear1"
+                            },
+                            {
+                                "title" : "Sports Claw Women's Shoes",
+                                "category" : "Sports",
+                                "price" : "$54.00",
+                                "del_price" : "$65.00",
+                                "imageId" : "sports3"
+                            }
+                        ],
+                        "Item2":[
+                            {
+                                "title" : "Air Trekking Shoes - white",
+                                "category" : "Sports",
+                                "price" : "$52.00",
+                                "del_price" : "$55.00",
+                                "imageId" : "sports6"
+                            },
+                            {
+                                "title" : "Boot With Suede Detail",
+                                "category" : "boots",
+                                "price" : "$20.00",
+                                "del_price" : "$30.00",
+                                "imageId" : "shoe3"
+                            },
+                            {
+                                "title" : "Men's Leather Formal Wear shoes",
+                                "category" : "formal",
+                                "price" : "$56.00",
+                                "del_price" : "$78.00",
+                                "imageId" : "shoe1"
+                            },
+                            {
+                                "title" : "Casual Men's Brown shoes",
+                                "category" : "Casual",
+                                "price" : "$50.00",
+                                "del_price" : "$55.00",
+                                "imageId" : "shoe2"
+                            }
+                        ]
+        }
+    },
+    "ProductShowCase3" : {
+        "title" : "Top Rated",
+        "content" : {
+                        "Item1":[
+                            {
+                                "title" : "Pocket Watch Leather Pouch",
+                                "category" : "Watches",
+                                "price" : "$50.00",
+                                "del_price" : "$34.00",
+                                "imageId" : "watch3"
+                            },
+                            {
+                                "title" : "Silver Deer Heart Necklace",
+                                "category" : "Jewellery",
+                                "price" : "$84.00",
+                                "del_price" : "$30.00",
+                                "imageId" : "jewellery3"
+                            },
+                            {
+                                "title" : "Titan 100 Ml Womens Perfume",
+                                "category" : "Perfume",
+                                "price" : "$42.00",
+                                "del_price" : "$10.00",
+                                "imageId" : "perfume"
+                            },
+                            {
+                                "title" : "Men's Leather Reversible Belt",
+                                "category" : "Belt",
+                                "price" : "$24.00",
+                                "del_price" : "$10.00",
+                                "imageId" : "belt"
+                            }
+                        ],
+                        "Item2":[
+                            {
+                                "title" : "platinum Zircon classNameic Ring",
+                                "category" : "jewellery",
+                                "price" : "$62.00",
+                                "del_price" : "$65.00",
+                                "imageId" : "jewellery2"
+                            },
+                            {
+                                "title" : "Smart watche Vital Plus",
+                                "category" : "Watches",
+                                "price" : "$56.00",
+                                "del_price" : "$78.00",
+                                "imageId" : "watch1"
+                            },
+                            {
+                                "title" : "shampoo conditioner packs",
+                                "category" : "cosmetics",
+                                "price" : "$20.00",
+                                "del_price" : "$30.00",
+                                "imageId" : "shampoo"
+                            },
+                            {
+                                "title" : "Rose Gold Peacock Earrings",
+                                "category" : "jewellery",
+                                "price" : "$20.00",
+                                "del_price" : "$30.00",
+                                "imageId" : "jewellery1"
+                            }
+                        ]
+        }
+    }
+
+}
