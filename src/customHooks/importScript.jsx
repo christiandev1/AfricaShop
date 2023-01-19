@@ -1,24 +1,24 @@
 import { useEffect } from 'react';
 
-const ImportScript = resourceUrl=> {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = resourceUrl;
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, [resourceUrl]);
-};
+// const ImportScript = resourceUrl=> {
+//   useEffect(() => {
+//     const script = document.createElement('script');
+//     script.src = resourceUrl;
+//     script.async = true;
+//     document.body.appendChild(script);
+//     return () => {
+//       document.body.removeChild(script);
+//     }
+//   }, [resourceUrl]);
+// };
 
 const ImportScriptJS = resourceUrl=> {
   let firstLoading = true;
 
   useEffect(() => {
-    'use strict';
+    //'use strict';
 
-    if( firstLoading == false )
+    if( firstLoading === false )
       return;
       
     // modal variables
