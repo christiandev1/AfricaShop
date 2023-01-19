@@ -76,12 +76,12 @@ const AppGlobalStateProvider: React.FC<ProviderProps> = ({children}) => {
     //     SetGlobalState(temp)
     //     saveInLocalStorage(temp)
     // }
-    // const saveImmeubleInfo= (building) =>{
+    const saveImmeubleInfo= (building:any) =>{
 
-    //     const temp = {...globalState, building: building}
-    //     SetGlobalState(temp)
-    //     saveInLocalStorage(temp)
-    // }
+        const temp = {...globalState, building: building}
+        SetGlobalState(temp)
+        // saveInLocalStorage(temp)
+    }
     
 
     // const saveSignedFile= (formData: FormData) =>{
@@ -113,7 +113,7 @@ const AppGlobalStateProvider: React.FC<ProviderProps> = ({children}) => {
     
     
     return (
-        <AppStateContext.Provider value={{globalState}}>
+        <AppStateContext.Provider value={{globalState, saveImmeubleInfo}}>
             {children}
         </AppStateContext.Provider>
     );
