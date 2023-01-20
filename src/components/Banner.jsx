@@ -27,7 +27,7 @@ const Banner = () => {
                         <h2 className="banner-title">Women's latest fashion sale</h2>
 
                         <p className="banner-text">
-                          starting at &dollar; <b>20</b>.00
+                          starting at $ <b>20</b>.00
                         </p>
 
                         <a href="/" className="banner-btn">Shop now</a>
@@ -47,7 +47,7 @@ const Banner = () => {
                         <h2 className="banner-title">Modern sunglasses</h2>
 
                         <p className="banner-text">
-                          starting at &dollar; <b>15</b>.00
+                          starting at $ <b>15</b>.00
                         </p>
 
                         <a href="/" className="banner-btn">Shop now</a>
@@ -67,7 +67,7 @@ const Banner = () => {
                         <h2 className="banner-title">New fashion summer sale</h2>
 
                         <p className="banner-text">
-                          starting at &dollar; <b>29</b>.99
+                          starting at $ <b>29</b>.99
                         </p>
 
                         <a href="/" className="banner-btn">Shop now</a>

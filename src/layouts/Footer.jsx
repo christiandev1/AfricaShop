@@ -1,6 +1,7 @@
 import React from 'react';
 
 import payment from '../assets/images/payment.png';
+import {AppSettings} from '../shared/constant'
 
 const Footer = () => {
     return (
@@ -286,7 +287,7 @@ const Footer = () => {
                     <img src={payment} alt="payment method" className="payment-img" />
 
                     <p className="copyright">
-                    Copyright &copy; <a href="/">Anon</a> all rights reserved.
+                    Copyright &copy; <a href="/">{AppSettings.AppName}</a> all rights reserved.
                     </p>
 
                 </div>

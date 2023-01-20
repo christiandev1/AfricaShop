@@ -1,10 +1,11 @@
 import React from 'react';
 
-import logo from '../assets/images/logo/logo.svg';
+import logo from '../assets/images/logo/logo.svg'
 import electronics_banner1 from '../assets/images/electronics-banner-1.jpg';
 import electronics_banner2 from '../assets/images/electronics-banner-2.jpg';
 import mens_banner from '../assets/images/mens-banner.jpg';
 import womens_banner from '../assets/images/womens-banner.jpg';
+import {AppSettings} from '../shared/constant'
 
 const Header = () => {
     return (
@@ -57,7 +58,7 @@ const Header = () => {
 
                     <select name="currency">
 
-                      <option value="usd">USD &dollar;</option>
+                      <option value="usd">USD $</option>
                       <option value="eur">EUR &euro;</option>
 
                     </select>
@@ -81,7 +82,7 @@ const Header = () => {
                 <div className="container">
 
                   <a href="/" className="header-logo">
-                    <img src={logo} alt="Anon's logo" width="120" height="36" />
+                    <img src={logo} alt={AppSettings.AltLogo} width="120" height="36" />
                   </a>
 
                   <div className="header-search-container">
@@ -605,7 +606,7 @@ const Header = () => {
 
                       <ul className="submenu-category-list" data-accordion>
                         <li className="submenu-category">
-                          <a href="/" className="submenu-title">USD &dollar;</a>
+                          <a href="/" className="submenu-title">USD $</a>
                         </li>
 
                         <li className="submenu-category">

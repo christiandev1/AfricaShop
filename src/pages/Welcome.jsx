@@ -8,7 +8,7 @@ import Products from '../components/Product';
 import Blog from '../components/Blog';
 import Testimonials from '../components/Testimonials_Cta_Services';
 import NotificationToast from '../components/NotificationToast';
-import Modal from '../components/Modal';
+import SuscribeNewsLetter from '../components/Modal';
 import ImportScriptJS from '../customHooks/importScript';
 
 const Welcome = () => {
@@ -35,7 +35,7 @@ const Welcome = () => {
             <div className="overlay" data-overlay></div>
 
             {/* <!--  - MODAL   --> */}
-            <Modal />
+            <SuscribeNewsLetter />
 
             {/* <!-- - NOTIFICATION TOAST--> */}
             <NotificationToast />
@@ -69,9 +69,6 @@ const Welcome = () => {
             {/* <!--- FOOTER--> */}
 
             <Footer />
-
-            {/* <!--- custom js link-> */}
-            {/* <script src={ScriptJS}></script> */}
 
             {/* <!--- ionicon link--> */}
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

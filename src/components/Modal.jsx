@@ -1,8 +1,9 @@
 import React from 'react';
 
 import newsletter from '../assets/images/newsletter.png';
+import {AppSettings} from '../shared/constant'
 
-const Modal = () => {
+const SuscribeNewsLetter = () => {
     return (
         <div>
             
@@ -31,7 +32,7 @@ const Modal = () => {
                       <h3 className="newsletter-title">Subscribe Newsletter.</h3>
 
                       <p className="newsletter-desc">
-                        Subscribe the <b>Anon</b> to get latest products and discount update.
+                        Subscribe the <b>{AppSettings.AppName}</b> to get latest products and discount update.
                       </p>
 
                     </div>
@@ -51,4 +52,4 @@ const Modal = () => {
     )
 }
 
-export default Modal;
+export default SuscribeNewsLetter;
